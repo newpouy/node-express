@@ -10,6 +10,9 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
+app.get('/blossom', (req, res) => {
+  res.send('Hello blossom server!');
+
 app.get('/khk', (req, res) => {
   res.send('어서오세요 김회경서버입니다!');
 });
@@ -17,3 +20,4 @@ app.get('/khk', (req, res) => {
 app.listen(port, () => {
   console.log(`app listening at http://localhost:${port}`);
 });
+
