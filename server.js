@@ -10,6 +10,15 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
+
+
+
+
+app.get('/blossom', (req, res) => {
+  res.send('Hello blossom server!');
+});
+
 app.listen(port, () => {
   console.log(`app listening at http://localhost:${port}`);
 });
+
