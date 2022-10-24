@@ -10,6 +10,9 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
+app.get('/kth', (req, res) => {
+  res.send('Hello from the Tae hee server!');
+
 app.get('/vincent', (req, res) => {
   res.send('Hello this is Vincent from the server! 가즈아~~~');
 });
