@@ -10,6 +10,26 @@ app.get('/health', (req, res) => {
   res.sendStatus(200);
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.get('/kth', (req, res) => {
+  res.send('Hello from the Tae hee server!');
+});
+
 app.listen(port, () => {
   console.log(`app listening at http://localhost:${port}`);
 });
